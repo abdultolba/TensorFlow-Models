@@ -15,8 +15,7 @@ import tensorflow as tf                                                         
 import matplotlib.pyplot as plt                                                                             # Import MatPlotLib Library
 from sklearn.model_selection import train_test_split                                                        # Import train_test_split from SkLearn Library
 
-diabetes = pd.read_csv(r'C:\Users\atolba\Desktop\FULL-TENSORFLOW-NOTES-AND-DATA\
-                        Tensorflow-Bootcamp-master\02-TensorFlow-Basics\pima-indians-diabetes.csv')         # Read a CSV file as input data
+diabetes = pd.read_csv('pima-indians-diabetes.csv')                                                         # Read a CSV file as input data
 diabetes.head()                                                                                             # View the input dataset in a table
 
 cols_to_norm = ['Number_pregnant', 'Glucose_concentration',
